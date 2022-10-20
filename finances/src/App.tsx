@@ -6,6 +6,7 @@ import { Item } from "./types/Item";
 import { Category } from "./types/Category";
 import { items } from "./data/items";
 import { categories } from "./data/categories";
+import { Scrollbars } from "react-custom-scrollbars-2";
 
 import { getCurrentMonth, filterListByMonth } from "./helpers/dateFilter";
 
@@ -20,18 +21,72 @@ const App = () => {
   }, [list, currentMonth]);
 
   return (
-    <C.Container>
-      <C.Header>
-        <C.HeaderText>Sistema Financeiro</C.HeaderText>
-      </C.Header>
+    <>
+      <C.Container className="custom-scrollbars__content">
+        <C.Header>
+          <C.HeaderText>Custom Scrollbars</C.HeaderText>
+        </C.Header>
 
-      <C.Body>
-        {/* Área de informações */}
-        testando a criaçao da branch feat/teste
-        {/* Área de inserção */}
-        {/* Tabela de itens */}
-      </C.Body>
-    </C.Container>
+        <C.Body>
+          {/* Área de informações */}
+          testando a criaçao da branch feat/teste
+          {/* Área de inserção */}
+          {/* Tabela de itens */}
+        </C.Body>
+      </C.Container>
+
+      <C.Container className="custom-scrollbars__content">
+        <C.Header>
+          <C.HeaderText>Custom Scrollbars</C.HeaderText>
+        </C.Header>
+
+        <C.Body>
+          {/* Área de informações */}
+          testando a criaçao da branch feat/teste
+          {/* Área de inserção */}
+          {/* Tabela de itens */}
+        </C.Body>
+      </C.Container>
+
+      <C.Container className="custom-scrollbars__content">
+        <C.Header>
+          <C.HeaderText>Custom Scrollbars</C.HeaderText>
+        </C.Header>
+
+        <C.Body>
+          {/* Área de informações */}
+          testando a criaçao da branch feat/teste
+          {/* Área de inserção */}
+          {/* Tabela de itens */}
+        </C.Body>
+      </C.Container>
+
+      <C.Container className="custom-scrollbars__content">
+        <C.Header>
+          <C.HeaderText>Custom Scrollbars</C.HeaderText>
+        </C.Header>
+
+        <C.Body>
+          {/* Área de informações */}
+          testando a criaçao da branch feat/teste
+          {/* Área de inserção */}
+          {/* Tabela de itens */}
+        </C.Body>
+      </C.Container>
+
+      <C.Container className="custom-scrollbars__content">
+        <C.Header>
+          <C.HeaderText>Custom Scrollbars</C.HeaderText>
+        </C.Header>
+
+        <C.Body>
+          {/* Área de informações */}
+          testando a criaçao da branch feat/teste
+          {/* Área de inserção */}
+          {/* Tabela de itens */}
+        </C.Body>
+      </C.Container>
+    </>
   );
 };
 
