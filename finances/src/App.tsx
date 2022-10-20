@@ -81,7 +81,9 @@ const App = () => {
 
         <C.Body>
           {/* Área de informações */}
-          testando a criaçao da branch feat/teste e hjbhjgjghjgf
+          testando a criaçao da branch feat/teste e hjbhjgjghjgf testando a
+          criaçao da branch feat/teste e alterações em mais de uma branch por
+          commit
           {/* Área de inserção */}
           {/* Tabela de itens */}
         </C.Body>
