@@ -64,7 +64,6 @@ const App = () => {
             expense={expense}
           />
           {/* Área de informações */}
-
           {/* Área de inserção */}
           <InputArea onAdd={handleAddItem} />
 
