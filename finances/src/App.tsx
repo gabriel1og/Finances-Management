@@ -53,7 +53,7 @@ const App = () => {
     <>
       <C.Container>
         <C.Header>
-          <C.HeaderText>Custom Scrollbars</C.HeaderText>
+          <C.HeaderText>Finances Management</C.HeaderText>
         </C.Header>
 
         <C.Body>
